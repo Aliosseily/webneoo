@@ -1,0 +1,37 @@
+.container__header {
+  white-space: pre-line;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-family: revert;
+  font-size: 3rem;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 860px) {
+  .container__header {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container__header {
+    font-size: 1.5rem;
+  }
+}

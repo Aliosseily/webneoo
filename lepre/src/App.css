@@ -1,0 +1,28 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+body{
+  color: #798fa1;
+  height:100%;
+}
+
+.app-container{
+  margin: 3rem;
+}
+
+.error-text{
+  color: red;
+}
+
+@media screen and (max-width: 650px) {
+  .app-container{
+    margin: 2rem;
+  }
+}

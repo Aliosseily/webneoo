@@ -1,0 +1,19 @@
+.latest__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-family: revert;
+    margin: 2rem 0 4rem 0;
+    font-size: 1.6rem;
+    font-family: revert;
+    font-weight: 300;
+}
+
+.line{
+    /* height: 5px; */
+    width: 100%;
+    border: 1px solid;
+    margin: 5rem 0;
+    color: #e6e6e6;
+}

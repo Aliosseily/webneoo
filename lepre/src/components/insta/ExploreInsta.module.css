@@ -1,0 +1,14 @@
+.container__header{
+    white-space: pre-line;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: revert;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 6rem 0 3rem 0;
+}
